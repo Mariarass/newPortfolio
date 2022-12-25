@@ -1,0 +1,130 @@
+
+.cardContainer {
+padding-top: 9px;
+
+  background-color: var(--gray);
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 150px;
+  height: 150px;
+  border-radius:15px;
+  cursor: pointer;
+  transition: 0.1s linear;
+
+
+}
+.cardContainer:hover{
+
+  background-image: url(../../assets/Frame2.svg ),linear-gradient(320deg, rgba(15,17,27,0.7) 20%, rgba(114,23,106,1) 71%, rgba(248,32,213,1) 100%);
+  background-size: cover;
+  background-color: transparent;
+
+
+
+
+}
+
+
+.icon {
+  
+
+ margin-left: 35px;
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
+  
+
+}
+
+.headerContainer {
+
+}
+
+.header {
+
+
+  margin-top:10px;
+
+  color: white;
+  font-family: var(--cardContainerfontHeader);
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-size: 15px;
+
+
+}
+.backContainer{
+  position: absolute;
+  top:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+
+
+}
+.back{
+  margin: 0;
+
+padding: 0;
+  font-family: var(--fontHeader);
+  font-size: 130px;
+  color: var(--gray);
+  -webkit-text-stroke: 1px #3f3f3f;
+
+
+}
+.back:hover{
+
+
+
+}
+
+
+
+.svg * {
+  fill: url(#grad--linear-1);
+
+  width: 80px;
+  height: 80px;
+
+}
+
+$color-time: 12s;
+$step: $color-time/4;
+stop {
+  animation: colors 10s infinite;
+}
+
+.stop-1 {
+
+}
+
+.stop-2 {
+  animation-delay: -$step;
+}
+
+.stop-3 {
+  animation-delay: -$step*2;
+}
+
+@keyframes colors {
+  15% {
+    stop-color: #EE15CB;
+  }
+  30% {
+    stop-color: #f5e079;
+  }
+  45% {
+    stop-color: #EE15CB;
+  }
+  60% {
+    stop-color: #efe974;
+  }
+  75% {
+    stop-color:#EE15CB;
+  }
+  90% {
+    stop-color: #efce7b;
+  }
+}

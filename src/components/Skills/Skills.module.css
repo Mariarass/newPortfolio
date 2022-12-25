@@ -1,0 +1,62 @@
+.container{
+
+    min-height:100%;
+    margin: 0;
+    padding-bottom: 70px;
+
+    background: linear-gradient(180deg, #1A1B26 14.92%, #02030C 100%);
+
+
+    padding-top:20px;
+
+
+
+
+}
+.headerContainer{
+
+    height:180px;
+
+
+
+    display: flex;
+    justify-content: end;
+    margin-bottom: 40px;
+
+
+}
+.header{
+
+
+    font-size: 60px;
+
+    letter-spacing: 3px;
+    padding: 0;
+    color: white;
+
+    text-align: end;
+
+
+
+
+
+}
+.skillsContainer{
+    width: 60%;
+    margin: 0 auto;
+
+
+    height: 100%
+
+}
+.skills{
+    
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+
+
+}

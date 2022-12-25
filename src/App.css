@@ -1,38 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+*{
+margin:0;
+
+}
+:root{
+  --main-color:#1A1B26;
+  --dark:#02030C;
+
+  --gray: #2C2E3E;
+  --lightGray: #3a3c56;
+  --hoverGray:#484B60;
+
+  --font:'JetBrains Mono', monospace;
+ /* --fontHeader:'Bebas Neue', cursive;
+  --fontCode:'Courier Prime', monospace;
+  --fontDescription: 'Poppins', sans-serif;*/
+
+
+
+
+}
 .App {
   text-align: center;
+  background-color: var(--main-color);
+  font-family: var(--font);
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

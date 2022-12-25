@@ -1,0 +1,45 @@
+.container {
+    background-color: var(--dark);
+    min-height: 100%;
+
+    padding-bottom: 60px;
+    padding-top: 30px;
+
+
+    margin: 0;
+}
+
+.projectContainer {
+
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+.headerContainer {
+
+
+    height: 180px;
+    margin-bottom:30px;
+
+}
+
+.skills {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.header {
+
+    font-size: 60px;
+
+    letter-spacing: 3px;
+    padding: 0;
+    color: white;
+    margin: 0;
+    text-align: start;
+
+}

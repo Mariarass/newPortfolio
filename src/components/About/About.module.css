@@ -1,0 +1,315 @@
+
+.container {
+
+    min-height: 100vh;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    /*  background-image: url(../../assets/Frame.svg);
+      background-size: cover;*/
+
+
+}
+
+
+.ideaContainer {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+
+.rowContainer {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: #282A37;
+    width: 60px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    color: #787878;
+
+
+}
+
+.codeContainer {
+    background-color: var(--gray);
+    width: 500px;
+}
+
+.tabContainer {
+
+
+    height: 30px;
+    background-color: var(--lightGray);
+    display: flex;
+
+
+}
+
+.tab {
+    width: 100px;
+    color: white;
+    padding-top: 5px;
+    cursor: pointer;
+    padding-bottom: 5px;
+    font-size: 12px;
+
+}
+
+.tabActive {
+    font-size: 12px;
+    background-color: var(--hoverGray);
+    border-bottom: 3px solid #FE98E8;
+    width: 100px;
+    color: white;
+    padding-top: 5px;
+    cursor: pointer;
+    padding-bottom: 5px;
+
+
+}
+
+.code {
+    color: white;
+    padding-left: 10px;
+    text-align: start;
+    padding-top: 8px;
+}
+
+.yellow {
+    color: #FFF847;
+}
+
+.green {
+    color: #92FF50;
+}
+
+.pink {
+    color: #FB4DFF;
+}
+
+.padding {
+    padding-left: 40px;
+}
+
+.padding2 {
+    padding-left: 80px;
+}
+
+
+.contactContainer {
+    width: 500px;
+    background-color: var(--lightGray);
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+
+
+}
+
+.img {
+    width: 350px;
+
+
+}
+
+.imgContainer {
+
+    height: 470px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.linkContainer {
+
+    height: 100%;
+    display: flex;
+
+    justify-content: center;
+    gap: 15px;
+}
+
+.link {
+    text-decoration: none;
+    color: #090611;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.1s linear;
+
+
+}
+
+.link:hover {
+    color: #a29ead;
+
+}
+
+.svg {
+    fill: #090611;
+    height: 40px;
+    width: 40px;
+    transition: 0.1s linear;
+}
+
+.svg:hover {
+    fill: #a29ead;
+}
+
+.type {
+    width: 60%;
+    margin: 0;
+
+    animation: typing 8s steps(45), blink 0.5s step-end infinite alternate;
+    white-space: pre;
+    overflow: hidden;
+    border-right: 1px solid;
+    padding-left: 80px;
+}
+
+.hidden {
+    display: none;
+
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+@media (max-width: 500px) {
+    .name {
+        font-size: 30px;
+    }
+
+
+}
+
+
+@media (max-width: 1060px) {
+    .codeContainer {
+
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 50px;
+    }
+
+    .tabContainer {
+        border-top-right-radius: 60px;
+
+    }
+
+    .ideaContainer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+
+    }
+
+    .contactContainer {
+
+        display: none;
+
+
+    }
+
+    .hidden {
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
+
+@media (max-width: 600px) {
+    .codeContainer {
+
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .imgContainer {
+        height: 400px;
+        width: 320px;
+
+    }
+
+
+    .linkContainer {
+
+        height: auto;
+
+    }
+
+
+    .img {
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .linkContainer {
+        gap: 5px;
+    }
+
+    .padding {
+        padding-left: 20px;
+    }
+
+    .padding2 {
+        padding-left: 40px;
+    }
+
+    .type {
+        width: 80%;
+    }
+
+    .imgContainer {
+
+        width: 250px;
+
+    }
+
+
+}
+
+@media (max-width: 420px) {
+    .name {
+        font-size: 23px;
+    }
+
+    .rowContainer {
+        font-size: 12px;
+    }
+
+    .codeContainer {
+        font-size: 12px;
+
+    }
+    .imgContainer {
+
+      height: 380px;
+
+    }
+
+
+
+}
